@@ -7,6 +7,9 @@ import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -57,8 +60,25 @@ public class ForecastFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_weather, container, false);
-        view.setBackgroundColor(0x200FF000);
-        return view;
+        LinearLayout forecastLayout = new LinearLayout(getContext());
+        forecastLayout.setBackgroundColor(0x8080D4FF);
+        forecastLayout.setOrientation(LinearLayout.VERTICAL);
+
+        TextView day = new TextView(getContext());
+        day.setText("Thursday");
+
+        ImageView weather = new ImageView(getContext());
+        weather.setImageResource(R.drawable.weather_icon);
+        weather.setPadding(10, 10, 10, 10); // Adjust padding values as needed
+
+
+        forecastLayout.addView(day);
+        forecastLayout.addView(weather);
+
+        return forecastLayout;
+     }
     }
-}
+
+
+
+
