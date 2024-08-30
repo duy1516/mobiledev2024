@@ -69,7 +69,6 @@ public class ForecastFragment extends Fragment {
 
         ImageView weather = new ImageView(getContext());
         weather.setImageResource(R.drawable.weather_icon);
-        weather.setPadding(10, 10, 10, 10); // Adjust padding values as needed
 
 
         forecastLayout.addView(day);
