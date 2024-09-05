@@ -60,21 +60,21 @@ public class ForecastFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        LinearLayout forecastLayout = new LinearLayout(getContext());
-        forecastLayout.setBackgroundColor(0x8080D4FF);
-        forecastLayout.setOrientation(LinearLayout.VERTICAL);
-
-        TextView day = new TextView(getContext());
-        day.setText("Thursday");
-
-        ImageView weather = new ImageView(getContext());
-        weather.setImageResource(R.drawable.weather_icon);
-
-
-        forecastLayout.addView(day);
-        forecastLayout.addView(weather);
-
-        return forecastLayout;
+//        LinearLayout forecastLayout = new LinearLayout(getContext());
+//        forecastLayout.setBackgroundColor(0x8080D4FF);
+//        forecastLayout.setOrientation(LinearLayout.VERTICAL);
+//
+//        TextView day = new TextView(getContext());
+//        day.setText("Thursday");
+//
+//        ImageView weather = new ImageView(getContext());
+//        weather.setImageResource(R.drawable.weather_icon);
+//
+//
+//        forecastLayout.addView(day);
+//        forecastLayout.addView(weather);
+        View v = inflater.inflate(R.layout.fragment_forecast, container, false);
+        return v;
      }
     }
 
