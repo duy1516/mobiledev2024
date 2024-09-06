@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="5dp"
         android:layout_marginVertical="10dp"
-        android:background="#8080D4FF"
+        android:background="#8060D4FF"
         android:orientation="vertical">
 
         <LinearLayout
@@ -36,19 +36,19 @@
                 android:layout_height="wrap_content"
                 android:text="Rainy\n20C - 25C"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="40sp"
+                android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:text="Tue"
-                android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Tue"
+            android:textColor="@color/black"
+            android:textSize="40sp"></TextView>
 
         <ImageView
             android:layout_width="50dp"
@@ -61,7 +61,8 @@
             android:layout_height="wrap_content"
             android:text="Rainy\n21C - 25C"
             android:textColor="@color/black"
-            android:textSize="40sp"></TextView>
+            android:textSize="40sp"
+            android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -84,7 +85,8 @@
                 android:layout_height="wrap_content"
                 android:text="Rainy\n22C - 26C"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="40sp"
+                android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -107,7 +109,8 @@
                 android:layout_height="wrap_content"
                 android:text="Rainy\n22C - 24C"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="40sp"
+                android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -130,7 +133,8 @@
                 android:layout_height="wrap_content"
                 android:text="Rainy\n20C - 27C"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="40sp"
+                android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -153,7 +157,8 @@
                 android:layout_height="wrap_content"
                 android:text="Storm\n19C - 23C"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="40sp"
+                android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -176,7 +181,8 @@
                 android:layout_height="wrap_content"
                 android:text="Storm\n17C - 21C"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="40sp"
+                android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
 
 
