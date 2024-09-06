@@ -5,13 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingHorizontal="15dp"
     tools:context=".ForecastFragment">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/displayTodayContainer"></LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginHorizontal="5dp"
         android:layout_marginVertical="10dp"
-        android:background="#8060D4FF"
+        android:background="@color/white"
         android:orientation="vertical">
 
         <LinearLayout
@@ -160,9 +165,11 @@
                 android:textSize="40sp"
                 android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
@@ -179,10 +186,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20sp"
                 android:text="Storm\n17C - 21C"
                 android:textColor="@color/black"
-                android:textSize="40sp"
-                android:layout_marginLeft="20sp"></TextView>
+                android:textSize="40sp"></TextView>
         </LinearLayout>
 
 

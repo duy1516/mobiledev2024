@@ -49,7 +49,11 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
-        ForecastFragment firstFragment = new ForecastFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.main, firstFragment).commit();
+
+        ForecastFragment forecastFragment = new ForecastFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.main, forecastFragment).commit();
+
+        DisplayToday displayToday = new DisplayToday();
+        getSupportFragmentManager().beginTransaction().add(R.id.main, displayToday).commit();
     }
 }
