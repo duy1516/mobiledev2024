@@ -2,19 +2,31 @@ package vn.edu.usth.weather;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 
 public class WeatherActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_weather);
 
-    public WeatherActivity() {
-        super();
+        Adapter adapter = new Adapter(getSupportFragmentManager());
+
+        ViewPager viewPager = findViewById(R.id.viewPager);
+        viewPager.setAdapter(adapter);
+
+        TabLayout tabLayout = findViewById(R.id.tabLayout);
+        tabLayout.setupWithViewPager(viewPager);
     }
-
     @Override
     protected void onStart() {
         super.onStart();
@@ -43,17 +55,5 @@ public class WeatherActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         Log.i("weather", "onPause here");
-    }
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_weather);
-
-        ForecastFragment forecastFragment = new ForecastFragment();
-        getSupportFragmentManager().beginTransaction().add(R.id.main, forecastFragment).commit();
-
-        DisplayToday displayToday = new DisplayToday();
-        getSupportFragmentManager().beginTransaction().add(R.id.main, displayToday).commit();
     }
 }

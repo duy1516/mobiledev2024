@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".DisplayToday">
+    tools:context=".WeatherFragment2">
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
@@ -16,21 +16,21 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:src="@drawable/weather_icon"
-            android:layout_centerInParent="true"></ImageView>
+            android:layout_centerInParent="true"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="12C\nRainy"
             android:textColor="@color/black"
             android:padding="7dp"
-            android:textSize="20dp"></TextView>
+            android:textSize="20dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Paris"
+            android:text="Ho Chi Minh"
             android:textColor="@color/black"
             android:textSize="20dp"
             android:padding="7dp"
-            android:layout_alignParentRight="true"></TextView>
+            android:layout_alignParentRight="true"/>
     </RelativeLayout>
 </RelativeLayout>

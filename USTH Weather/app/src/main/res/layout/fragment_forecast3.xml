@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingHorizontal="15dp"
-    tools:context=".ForecastFragment">
+    tools:context=".ForecastFragment3">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
@@ -47,26 +47,26 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-        <TextView
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:text="Tue"
-            android:textColor="@color/black"
-            android:textSize="40sp"></TextView>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Tue"
+                android:textColor="@color/black"
+                android:textSize="40sp"></TextView>
 
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginHorizontal="10dp"
-            android:src="@drawable/weather_icon"></ImageView>
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="10dp"
+                android:src="@drawable/weather_icon"></ImageView>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Rainy\n21C - 25C"
-            android:textColor="@color/black"
-            android:textSize="40sp"
-            android:layout_marginLeft="20sp"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rainy\n21C - 25C"
+                android:textColor="@color/black"
+                android:textSize="40sp"
+                android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
