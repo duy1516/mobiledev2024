@@ -1,9 +1,10 @@
 <resources>
-    <string name="app_name">USTH Thời Tiết</string>
+    <!-- Name -->
+    <string name="app_name">Dự báo thời tiết</string>
     <string name="hanoi">Hà Nội</string>
     <string name="hcm">Hồ Chí Minh</string>
     <string name="paris">Paris</string>
-
+    <!-- Day -->
     <string name="mon">Thứ 2</string>
     <string name="tue">Thứ 3</string>
     <string name="wed">Thứ 4</string>
@@ -11,4 +12,8 @@
     <string name="fri">Thứ 6</string>
     <string name="sat">Thứ 7</string>
     <string name="sun">Chủ Nhật</string>
+    <!-- Weather -->
+    <string name="rainy">Mưa\n10C - 20C</string>
+    <!-- Day -->
+    <string name="day">12C\nMưa</string>
 </resources>

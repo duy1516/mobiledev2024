@@ -1,9 +1,10 @@
 <resources>
+    <!-- Name -->
     <string name="app_name">USTH Weather</string>
     <string name="hanoi">Hanoi</string>
     <string name="hcm">HCM City</string>
     <string name="paris">Paris</string>
-
+    <!-- Day -->
     <string name="mon">Mon</string>
     <string name="tue">Tue</string>
     <string name="wed">Wed</string>
@@ -11,4 +12,8 @@
     <string name="fri">Fri</string>
     <string name="sat">Sat</string>
     <string name="sun">Sun</string>
+    <!-- Weather -->
+    <string name="rainy">Rainy\n10C - 20C</string>
+    <!-- Day -->
+    <string name="day">12C\nRaining</string>
 </resources>

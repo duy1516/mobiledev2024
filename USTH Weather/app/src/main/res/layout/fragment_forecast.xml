@@ -39,9 +39,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rainy\n20C - 25C"
+                android:text="@string/rainy"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
 
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:text="@string/tue"
             android:textColor="@color/black"
-            android:textSize="40sp"></TextView>
+            android:textSize="30sp"></TextView>
 
         <ImageView
             android:layout_width="50dp"
@@ -64,9 +64,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Rainy\n21C - 25C"
+            android:text="@string/rainy"
             android:textColor="@color/black"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
@@ -77,7 +77,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/wed"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="30sp"></TextView>
 
             <ImageView
                 android:layout_width="50dp"
@@ -88,9 +88,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rainy\n22C - 26C"
+                android:text="@string/rainy"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
@@ -101,7 +101,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/thu"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="30sp"></TextView>
 
             <ImageView
                 android:layout_width="50dp"
@@ -112,9 +112,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rainy\n22C - 24C"
+                android:text="@string/rainy"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
@@ -125,7 +125,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/fri"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="30sp"></TextView>
 
             <ImageView
                 android:layout_width="50dp"
@@ -136,9 +136,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Rainy\n20C - 27C"
+                android:text="@string/rainy"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
         <LinearLayout
@@ -149,7 +149,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/sat"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="30sp"></TextView>
 
             <ImageView
                 android:layout_width="50dp"
@@ -160,9 +160,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Storm\n19C - 23C"
+                android:text="@string/rainy"
                 android:textColor="@color/black"
-                android:textSize="40sp"
+                android:textSize="30sp"
                 android:layout_marginLeft="20sp"></TextView>
         </LinearLayout>
 
@@ -175,7 +175,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/sun"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="30sp"></TextView>
 
             <ImageView
                 android:layout_width="50dp"
@@ -187,9 +187,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20sp"
-                android:text="Storm\n17C - 21C"
+                android:text="@string/rainy"
                 android:textColor="@color/black"
-                android:textSize="40sp"></TextView>
+                android:textSize="30sp"></TextView>
         </LinearLayout>
 
 

@@ -3,15 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    tools:context=".WeatherFragment">
+    tools:context=".WeatherFragment"
+    android:background="@drawable/frame"
+    android:padding="10dp">
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:background="#9999edc3"
         android:layout_margin="20dp"
         android:layout_centerInParent="true">
+
         <ImageView
             android:layout_width="200dp"
             android:layout_height="200dp"
@@ -20,9 +22,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="12C\nRainy"
+            android:text="@string/day"
             android:textColor="@color/black"
-            android:padding="7dp"
+            android:padding="25dp"
             android:textSize="20dp"/>
         <TextView
             android:layout_width="wrap_content"
@@ -30,7 +32,7 @@
             android:text="@string/hanoi"
             android:textColor="@color/black"
             android:textSize="20dp"
-            android:padding="7dp"
+            android:padding="25dp"
             android:layout_alignParentRight="true"/>
     </RelativeLayout>
 </RelativeLayout>
